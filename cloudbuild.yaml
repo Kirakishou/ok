@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/JOEHOUSE/quickstart-image', '.' ]
+  args: [ 'build', '-t', 'gcr.io/${LIGMA}/quickstart-image', '.' ]
 images:
-- 'gcr.io/JOEHOUSE/quickstart-image'
+- 'gcr.io/${LIGMA}/quickstart-image'
